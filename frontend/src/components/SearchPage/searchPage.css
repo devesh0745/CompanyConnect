@@ -1,0 +1,83 @@
+.search-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.search-container h2 {
+    color: #1a213e;
+    margin-bottom: 20px;
+}
+
+.search-container a {
+    color: #1a213e;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.search-container a:hover {
+    color: #2e3a70;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.company-list {
+    list-style-type: none;
+    padding: 0;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.company-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.company-item:hover {
+    background-color: #e9e9e9;
+}
+
+.company-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.company-country {
+    color: #666;
+}
+
+.search-container .company-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding-bottom: 0%;
+}
+
+.search-container .company-link:hover {
+    color: #2e3a70;
+}

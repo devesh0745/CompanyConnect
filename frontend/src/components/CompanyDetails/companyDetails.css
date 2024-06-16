@@ -1,0 +1,118 @@
+.company-page-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.company-details-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    color: #333;
+}
+
+.company-details-container h3 {
+    color: #1a213e;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.company-details {
+    margin-bottom: 20px;
+}
+
+.company-details div {
+    margin-bottom: 10px;
+    border: 1px  solid rgb(174, 174, 240);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: whitesmoke;
+}
+
+.detail-label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #1a213e;
+}
+
+.detail-label,
+.company-details span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.company-details span {
+    width: calc(100% - 100px); 
+    word-wrap: break-word;
+    color: #333;
+}
+#company-website{
+    text-decoration: none;
+    color:#333 ;
+}
+#company-website:hover{
+    color: #506cdb;
+}
+
+@media (max-width: 600px) {
+    .company-details-container {
+        padding: 20px;
+    }
+}
+.contact-us-container {
+    flex: 1;
+    max-width: 20%; 
+    margin-right: 8%;
+    margin-top: 2%;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 16px; 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+
+.contact-us-container h3 {
+    margin-top: 0; 
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#send-inquiry {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#send-inquiry:hover {
+    background-color: #0056b3;
+}
